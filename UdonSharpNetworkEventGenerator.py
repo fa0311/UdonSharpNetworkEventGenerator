@@ -2,8 +2,8 @@ import argparse
 
 
 argpar = argparse.ArgumentParser(
-    prog="UdonSharpNetworkEventGen",
-    usage="https://github.com/fa0311/UdonSharpNetworkEventGen",
+    prog="UdonSharpNetworkEventGenerator",
+    usage="https://github.com/fa0311/UdonSharpNetworkEventGenerator",
     description="UdonSharp NetworkEvent Generator",
 )
 

@@ -1,10 +1,10 @@
-# UdonSharpNetworkEventGen
+# UdonSharpNetworkEventGenerator
 Udon#のNetworkEventを自動生成します<br>
 ジョークプログラムではありません
 
 ## 使い方
 ```console
-python UdonSharpNetworkEventGen.py Name 1000 -o Output.cs
+python UdonSharpNetworkEventGenerator.py Name 1000 -o Output.cs
 ```
 
 出力
