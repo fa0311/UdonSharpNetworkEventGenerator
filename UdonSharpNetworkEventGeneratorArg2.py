@@ -21,7 +21,7 @@ arg = argpar.parse_args()
 output = ""
 for i in range(arg.range):
     for ii in range(arg.range2):
-        output += "public void NetworkEventSyncQuizTime{name}{number}_{number2}(){{{crlf}"\
+        output += "public void NetworkEvent{name}{number}_{number2}(){{{crlf}"\
             "{indent}NetworkEvent{name}({number},{number2});{crlf}"\
             "}}{crlf}".format(name=arg.name, number=i, number2=ii, indent=arg.indent, crlf=arg.crlf)
 
